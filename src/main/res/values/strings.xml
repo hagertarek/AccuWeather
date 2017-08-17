@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AccuWeather</string>
+    <string name="temp_text">25°</string>
+    <string name="city_name">Mansoura</string>
+    <string name="time">Now</string>
+    <string name="time_temp">25°</string>
+    <string name="mode">Mostly sunny</string>
+    <string name="max_min">25°/22°</string>
+    <string name="done_btn">Done</string>
+    <string name="Temp_unit">Temperature Unit</string>
+    <string name="c_f">C° > </string>
+    <string name="lang">Language</string>
+    <string name="Ar_En">En > </string>
+    <string name="updated_text">Updated 30 minutes ago</string>
+    <string name="citiesLable">Cities</string>
+    <string name="settingLable">Settings</string>
+    <string name="addCityLable">Add City</string>
+
+</resources>

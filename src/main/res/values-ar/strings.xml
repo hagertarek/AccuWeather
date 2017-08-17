@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccuWeather</string>
+    <string name="temp_text">25°</string>
+    <string name="city_name">المنصورة</string>
+    <string name="time">الآن</string>
+    <string name="time_temp">25°</string>
+    <string name="mode">مشمس</string>
+    <string name="max_min">25°/22°</string>
+    <string name="done_btn">تم</string>
+    <string name="Temp_unit">وحدة درجه الحرارة</string>
+    <string name="c_f">C° > </string>
+    <string name="lang">اللغة</string>
+    <string name="Ar_En">En > </string>
+    <string name="updated_text">تم التحديث من 30 دقيقه</string>
+    <string name="citiesLable">المدن</string>
+    <string name="settingLable">الإعدادات</string>
+    <string name="addCityLable">إضافة مدينة</string>
+</resources>

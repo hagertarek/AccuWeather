@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        />
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/title"
+        android:background="@android:color/darker_gray"/>
+<RadioGroup
+    android:id="@+id/RG"
+    android:layout_below="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <RadioButton
+       android:id="@+id/RB_C"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="C°"
+       android:textColor="#000000"
+       android:textSize="20dp"
+       android:buttonTint="@color/colorPrimary"
+       android:layout_marginBottom="20dp"
+
+       />
+    <View
+        android:id="@+id/line_lang1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/RB_C"
+        android:background="@android:color/darker_gray"/>
+
+    <RadioButton
+        android:id="@+id/RB_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F°"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:buttonTint="@color/colorPrimary"
+        />
+</RadioGroup>
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/et_corners"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
